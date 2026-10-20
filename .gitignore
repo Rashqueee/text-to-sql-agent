@@ -1,0 +1,49 @@
+# Environment and secrets
+.env
+.env.*
+*.env
+!.env.example
+
+# Python and virtual environments
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+
+# Distribution and packaging
+build/
+devel/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Thesis drafts and temporary license files
+docs/
+.licenses/
+
+# Project datasets and local databases
+data/
+
+# Tool-specific and AI agent files
+.claude/

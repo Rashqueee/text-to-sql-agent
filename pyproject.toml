@@ -1,0 +1,13 @@
+[project]
+name = "text-to-sql-agent"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain>=1.4.5",
+    "langchain-openai>=1.7.1",
+    "langgraph>=1.2.15",
+    "pandas>=2.3.3",
+    "psycopg>=3.3.6",
+    "psycopg2>=2.9.13",
+]
